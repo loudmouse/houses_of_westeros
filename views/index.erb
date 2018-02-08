@@ -1,0 +1,14 @@
+<h4>To which of the <a href="http://awoiaf.westeros.org/index.php/List_of_houses">Great House of Westeros</a> do you bend the knee?</h4>
+  <form action='cast' method='post'>
+    <ul class='unstyled'>
+      <% Choices.each do |id, text| %>
+        <li>
+          <label class='radio'>
+            <input type='radio' name='vote' value='<%= id %>' id='vote_<%= id %>' />
+              <%= text %>
+            </label>
+        </li>
+      <% end %>
+    </ul>
+      <button type='submit' class='btn btn-primary'>Cast this vote!</button>
+  </form>
