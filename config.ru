@@ -1,2 +1,2 @@
-require './houses_of_westeros'
+require 'houses_of_westeros'
 run App
