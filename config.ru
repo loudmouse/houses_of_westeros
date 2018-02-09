@@ -1,2 +1,2 @@
 require 'houses_of_westeros.rb'
-run App
+run Sinatra::Application
