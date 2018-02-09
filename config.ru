@@ -1,2 +1,2 @@
 require './houses_of_westeros'
-run Sinatra::Application
+run Houses_of_Westeros 
